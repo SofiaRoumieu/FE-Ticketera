@@ -1,0 +1,22 @@
+button{
+    /*Change the width as much as you like, but make sure 
+    margin-left and margin-right + width = 100%*/
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:2vh;
+    margin-bottom:2vh;
+    padding:0.5vh;
+    white-space: pre-wrap !important;
+}
+
+.mat-divider{
+    border-top-color: transparent;
+}
+
+.mat-card{
+    margin-left:10vw;
+    margin-right:10vw;
+    text-align: center;
+    word-wrap: break-word;
+}
