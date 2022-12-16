@@ -17,21 +17,21 @@ export class AppComponent {
       resultado: null //Sirve para mostrar o no una caja de texto con el resultado de la peticion, meramente visual
     },
     {
-      descripcion: "Ver tickets sin resolver",
-      link:"http://localhost:8080/perrito/insertar",
-      metodo: "post",
+      descripcion: "Cantidad de tickets sin resolver por cliente",
+      link:"http://localhost:8080/ticket/cantTicketsResueltosCliente",
+      metodo: "get",
       resultado: null
     },
     {
-      descripcion: "Modificar un perrito",
-      link: "http://localhost:8080/perrito/modificar",
-      metodo: "put",
+      descripcion: "Ver tickets de tipo Defecto",
+      link: "http://localhost:8080/ticket/listarDesperfectos",
+      metodo: "get",
       resultado: null
     },
     {
-      descripcion: "Eliminar un perrito",
-      link: "http://localhost:8080/perrito/eliminar",
-      metodo: "delete",
+      descripcion: "Ver derivaciones del ticket 1",
+      link: "http://localhost:8080/ticket/derivacionesTicketUno",
+      metodo: "get",
       resultado: null
     }
   ]
